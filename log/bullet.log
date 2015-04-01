@@ -1,0 +1,75 @@
+2015-04-01 14:46:50[WARN] user: yinyer
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005730189820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005730902280'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005962210020'
+2015-04-01 14:47:38[WARN] user: yinyer
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
+2015-04-01 15:24:38[WARN] user: yinyer
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
+  /home/yinyer/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+2015-04-01 15:24:52[WARN] user: yinyer
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
+  /home/yinyer/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+2015-04-01 15:25:01[WARN] user: yinyer
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
+  /home/yinyer/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+2015-04-01 15:25:15[WARN] user: yinyer
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
+2015-04-01 15:25:59[WARN] user: yinyer
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
+2015-04-01 15:26:01[WARN] user: yinyer
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__3624014738095906260_70005724546820'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__2332871856318615107_70005724891660'
+  /home/yinyer/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___448952552923114839_70005732017700'
